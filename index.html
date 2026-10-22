@@ -1,101 +1,84 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CW2L624CJC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) ufficiale di Analytics per Amnesty -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CW2L624CJC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-CW2L624CJC');
-</script>
+      gtag('config', 'G-CW2L624CJC');
+    </script>
 
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Io sto con Amnesty - Oreste De Chiara</title>
+    <title>Io sto con Amnesty - Diritti Umani</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color:blue;
-            color:yellow;
-            margin: 0;
-            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
             text-align: center;
+            padding: 40px 20px;
+            margin: 0;
         }
         .container {
-            max-width:900px;
+            max-width: 800px;
             margin: 0 auto;
-            background:red;
-            padding:39px;
-            border-radius:19px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
         }
         h1 {
-            color: #fff200; /* Il classico colore giallo di Amnesty */
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+            color: #ffd700; /* Giallo Amnesty */
+            font-size: 32px;
+            margin-bottom: 20px;
         }
         p {
-            font-size: 1.1rem;
+            font-size: 18px;
             line-height: 1.6;
-            color: #e0e0e0;
-            margin-bottom: 25px;
+            opacity: 0.9;
         }
         .video-container {
             position: relative;
-            padding-bottom: 56 Zarz%?  /* Proporzione 16:9 */
-            padding-bottom: 56.25%; 
-            height: 0;
+            width: 100%;
+            max-width: 560px;
+            aspect-ratio: 16/9;
+            margin: 30px auto;
+            border-radius: 12px;
             overflow: hidden;
-            max-width: 100%;
-            border-radius: 8px;
-            background: #000;
-            margin-bottom: 20px;
+            box-shadow: 0 8px 24px rgba(255, 215, 0, 0.15);
         }
         .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
             height: 100%;
             border: 0;
         }
-        .btn-back {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #fff200;
-            color: #000000;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: background 0.3s;
+        .logo-box {
+            margin-top: 40px;
         }
-        .btn-back:hover {
-            background-color: #ccbf00;
+        .amnesty-logo {
+            width: 150px;
+            height: auto;
+            object-fit: contain;
         }
     </style>
 </head>
 <body>
-<h1>Io sto con Amnesty</h1>
-<iframe width="1053" height="592" src="https://www.youtube.com/embed/VOKECGdkHe8" title="Roberto Saviano racconta la storia di Amnesty International" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="container">
-        <h1>Io sto con Amnesty International</h1>
-        <p>
-            Credo fermamente nell'amore autentico, nel rispetto reciproco e nell'uguaglianza di tutte le persone. Non amo l'apparenza e non sopporto le ingiustizie. Per questo motivo ho scelto di sostenere attivamente le campagne di Amnesty International, dando voce a chi difende i diritti umani in tutto il mondo.
-        </p>
 
-        <!-- Contenitore del Video di Roberto Saviano -->
+    <div class="container">
+        <h1>Io sto con Amnesty</h1>
+        <h2>Dalla parte dei diritti umani e contro le ingiustizie del mondo</h2>
+        
+        <p>Guarda la testimonianza e sostieni le campagne di sensibilizzazione sui diritti civili.</p>
+
+        <!-- Contenitore per il Video di Roberto Saviano -->
         <div class="video-container">
-            <!-- Sostituisci URL_VIDEO_YOUTUBE con il link di condivisione embed del video -->
-            
+            <!-- Sostituisci "ID_VIDEO_YOUTUBE" con l'identificativo reale del video quando lo hai pronto -->
+            <iframe src="https://youtube.com" title="Roberto Saviano per Amnesty International" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <p><em>"Il mio valore dipende da me, ed esprimerlo significa anche schierarsi dalla parte della giustizia."</em></p>
-        
-        <a href="index.html" class="btn-back">Torna alla Home</a>
+        <div class="logo-box">
+            <img src="https://ibb.co" alt="Logo Io sto con Amnesty" class="amnesty-logo">
+        </div>
     </div>
 
 </body>
